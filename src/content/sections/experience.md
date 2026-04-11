@@ -1,42 +1,55 @@
 ---
-title: 經歷
+title: Experience
 order: 2
-icon: '💼'
-description: 工作經歷與學歷
+icon: '▲'
+description: Professional experience and education
 ---
 
-## 工作經歷
+## IT & Information Security Lead
+**Taiwan Cooperative Bank Venture Capital Co., Ltd.** — Taipei, Taiwan
+`Dec 2020 – Present` · Venture Capital · ~30 employees
 
-### 資訊暨資安主管 · 合作金庫創業投資股份有限公司
-**2020 / 12 – 現在** · 台北市中正區 · 創投業（約 30 人）
+Owning the full IT and InfoSec stack for a boutique VC firm, reporting directly to the executive team. Built the program from the ground up — there was no dedicated IT function when I joined.
 
-負責公司全方位的資訊與資安管理工作，職責橫跨系統維運、內部開發與資安治理。
-
-- **資訊架構管理**：伺服器、網路、防火牆、NAS 儲存系統之維運與監控
-- **帳號與權限控管**：管理使用者與最高權限帳號，確保資安層級分明
-- **內部系統開發與維護**：AD、會計系統、加班系統、排程寄信系統、差勤與報表系統
-- **資訊安全管理**：執行資安政策、弱點掃描、備份與應變機制，制定作業程序與教育訓練
-- **ISO 專案支援**：協助公司通過 ISO 14064、50001、14001、20400 等多項國際認證
-- **資產與授權控管**：軟硬體資產、軟體授權及 VPN 安全設定
-
-### 系統工程師 · 順發電腦股份有限公司
-**2019 / 2 – 2020 / 12** · 高雄市三民區 · 電腦軟體服務業（500 人以上）
-
-- 開發內部排程系統，提升自動化與作業效率
-- 維護與客製 B2B 外部廠商送單網站、每日營業報表
-- 維護與開發金流串接（LinePay、玉山 Pay API）並與外部廠商協作
-
-### 初級工程師 · 弈飛資訊
-**2017 / 7 – 2018 / 10** · 高雄市左營區 · 電腦軟體服務業
-
-- 開發「電子發票整合系統網頁版」（C# MVC、WebAPI、DDNS）
-- 維護與客製 Qboss 系列系統（進銷存、會計、POS、電子發票整合）
+- **Own end-to-end infrastructure**: on-prem servers, networking, firewalls, NAS storage, and Active Directory — zero unplanned downtime since taking ownership
+- **Delivered 4 ISO certifications** by leading the IT workstreams for ISO 14064 · 50001 · 14001 · 20400, coordinating auditors, documenting controls, and running internal training
+- **Established company-wide security program** from scratch: policies, vulnerability scans, backup & disaster-recovery playbook, staff security-awareness curriculum
+- **Built & maintain internal platforms** in-house: accounting system, overtime/attendance portal, scheduled email automation, management reporting — consolidating tools previously run in Excel
+- **Hardened privileged access**: deployed AD-based role separation, MFA, and VPN policies protecting ~30 users and critical financial systems
+- **Currently pursuing SSCP and ISO/IEC 27001 Lead Implementer** to formalize the program against international frameworks
 
 ---
 
-## 學歷
+## Systems Engineer
+**Sunfar Computer Co., Ltd.** — Kaohsiung, Taiwan
+`Feb 2019 – Dec 2020` · Computer Retail · 500+ employees
 
-### 國立高雄師範大學 · 軟體工程學系
-**2013 / 9 – 2017 / 6** · 大學畢業
+Backend & integration work on the internal software platform powering a national computer retailer.
 
-主修程式設計與系統開發。在校期間參與跨校專題合作，包含「iBeacon 室內定位配合虛擬實境 MR」、Unity 2D 橫向卷軸遊戲《龍之痕》等，累積團隊協作與產品實作經驗。
+- **Shipped internal task scheduling system** that automated daily sales reporting, eliminating manual Excel compilation for regional managers
+- **Maintained and customized B2B vendor ordering portal**, implementing per-vendor UI and reporting variants
+- **Integrated LinePay and E.SUN Bank Pay APIs** into the e-commerce checkout flow, coordinating with bank technical contacts through production launch
+
+---
+
+## Software Engineer
+**Yifei Information Systems** — Kaohsiung, Taiwan
+`Jul 2017 – Oct 2018` · Enterprise Software · ~30 employees
+
+First production engineering role, building and customizing the **Qboss** ERP suite for Taiwanese SMBs (inventory, accounting, POS, e-invoicing).
+
+- **Designed and shipped "Qboss Web E-Invoicing Platform"** from scratch (C# MVC · WebAPI · DDNS), lifting an on-premise-only invoicing system into a mobile-accessible cloud deployment — enabling field sales to issue invoices from any smartphone browser
+- Maintained and customized Qboss modules across inventory, accounting, POS, and e-invoicing for ~50 SMB clients
+
+---
+
+## Education
+
+### B.S. Software Engineering
+**National Kaohsiung Normal University** — Kaohsiung, Taiwan
+`Sep 2013 – Jun 2017`
+
+Core coursework in software architecture, database systems, network programming, and C#/Java development. Capstone projects:
+
+- **"iBeacon Indoor Localization × Mixed Reality"** — cross-school collaboration combining BLE positioning with VR/MR interaction
+- **"Trace of Dragon"** — Unity 2D side-scrolling action game; owned character controller, level logic, and game state machine

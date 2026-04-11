@@ -1,42 +1,46 @@
 ---
-title: 證照
-order: 3
-icon: '🎓'
-description: 專業認證與進修中課程
+title: Certifications
+order: 4
+icon: '✦'
+description: Earned credentials and certifications in progress
 ---
 
-## 已取得證照
+## Earned
 
-### CCNA · Cisco Certified Network Associate
+### ● CCNA — Cisco Certified Network Associate
 **Cisco Systems**
 
-網路架構、路由交換、TCP/IP、VLAN 等企業網路核心能力認證。
+Validates networking fundamentals — routing & switching, IP connectivity, network access, security basics, automation — core to running the on-prem networking layer at TCB-VC.
 
-### 丙級電腦軟體應用技術士
-**勞動部勞動力發展署技能檢定中心**
+### ● JLPT N2 — Japanese Language Proficiency Test (Level N2)
+**Japan Foundation / Japan Educational Exchanges and Services**
 
-程式設計、資料庫應用與文書軟體操作之國家技能檢定。
+Advanced-level business Japanese. Comfortable reading Japanese technical documentation and handling written business communication; conversational in meetings.
 
-### JLPT N2 · 日本語能力試験
-**日本語能力試験**
+### ● Class C Computer Software Applications Technician
+**Ministry of Labor — Taiwan Workforce Development Agency**
 
-聽力與閱讀精通、會話與寫作中等；具備跨國溝通與日語技術文件閱讀能力。
+National technical certification covering programming, database operations, and office productivity software.
 
-### 丙種職業安全衛生業務主管
-**勞動部職業安全衛生署**
+### ● Class C Occupational Safety & Health Manager
+**Occupational Safety and Health Administration, Taiwan**
 
-企業內部安全衛生管理與風險控管之法定資格。
+Legal qualification for corporate OSH oversight, including risk assessment, incident response, and compliance reporting.
 
 ---
 
-## 進修中
+## In Progress
 
-### SSCP · Systems Security Certified Practitioner
-**(ISC)² 認證課程**
+### ◐ SSCP — Systems Security Certified Practitioner
+**(ISC)² · Currently studying**
 
-深化資訊安全治理、風險控管、事件應變與加密實務。
+Hands-on information security certification covering access controls, security operations, risk management, cryptography, incident response, and network/communications security. Complements my day-to-day operational security work with formal frameworks.
 
-### ISO 27001 資訊安全管理系統
-**國際標準化組織**
+### ◐ ISO/IEC 27001 Lead Implementer
+**ISMS Framework · Currently studying**
 
-以國際化標準檢視並強化公司內部資安架構的完善性。
+Deep dive into the international standard for Information Security Management Systems. Preparing to formalize TCB-VC's security program against ISO 27001 controls.
+
+---
+
+> **On the roadmap:** CISSP, AWS Security Specialty, and a JLPT N1 attempt once SSCP is complete.

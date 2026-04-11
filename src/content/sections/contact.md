@@ -1,26 +1,40 @@
 ---
-title: 聯絡
+title: Contact
 order: 6
-icon: '✉️'
-description: 聯繫方式與工作機會
+icon: '→'
+description: Get in touch
 ---
 
-## 聯絡方式
+## Get in Touch
 
-- **Email**：[overfly0708@gmail.com](mailto:overfly0708@gmail.com)
-- **GitHub**：[@andywen78](https://github.com/andywen78)
-- **現居**：台北市中正區
-- **工作地點偏好**：台北 · 高雄
+```
+email  →  overfly0708@gmail.com
+github →  @andywen78
+based  →  Taipei, Taiwan (UTC+8)
+```
 
-## 求職狀態
+---
 
-- **希望職稱**：資訊主管 / MIS 網管主管 / 軟體專案主管
-- **希望產業**：軟體與網路相關業
-- **工作性質**：全職
-- **可上班日**：錄取後隨時
+## Open To
 
-## 工作機會
+| | |
+|---|---|
+| **Roles** | IT Lead · Information Security · Infrastructure Lead · IT Manager · MIS Lead |
+| **Industries** | FinTech · SaaS · Game / Tech Studios · Enterprise IT |
+| **Geography** | Taiwan · Japan · Remote-first · Open to US/APAC relocation |
+| **Modes** | Full-time · Contract-to-hire |
+| **Availability** | Immediate upon offer |
 
-歡迎聊聊新的合作機會、技術討論、或純粹打個招呼。資安治理、系統整合、跨國 IT 架構建置都是感興趣的方向。
+---
 
-> 也歡迎以日文聯繫（JLPT N2）。
+## Languages for Communication
+
+- **English** — Professional written & conversational
+- **Japanese (JLPT N2)** — Business meetings, technical docs, email
+- **Mandarin Chinese** — Native
+
+---
+
+> If you're building an IT / InfoSec function in APAC and need someone who can code, operate infrastructure, *and* sit in a compliance audit without flinching — let's talk.
+
+**Email is the fastest way to reach me.** I typically reply within one business day.

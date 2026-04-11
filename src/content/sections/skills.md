@@ -1,54 +1,59 @@
 ---
-title: 技能
-order: 4
-icon: '🛠'
-description: 技術棧、資安能力與語言
+title: Skills
+order: 3
+icon: '❯'
+description: Technical stack, security competencies, and languages
 ---
 
-## 程式語言
+## Programming Languages
 
-**C#** · **Python** · **Java** · **JavaScript** · **C** · **Visual C#** · **Unity C#** · **VB**
+`C#` `Python` `Java` `JavaScript` `C` `VB` `Unity C#`
 
-## 框架 / 網頁技術
+## Frameworks & Web
 
-- **後端**：ASP.NET MVC、WebAPI
-- **前端**：HTML、jQuery、AJAX、JavaScript
-- **遊戲**：Unity 2D
+`ASP.NET MVC` `WebAPI` `jQuery` `AJAX` `HTML5` `Unity 2D`
 
-## 資料庫
+## Databases
 
-**MS SQL Server** · **MySQL** · **Access** · Database Management
+`Microsoft SQL Server` `MySQL` `MS Access`
 
-## 伺服器 / 網路
+## Infrastructure & Networking
 
-- **伺服器**：IIS、Tomcat
-- **協定**：TCP / IP、Socket、FTP、HTTP、DDNS
+`Active Directory` `IIS` `Tomcat` `TCP/IP` `Socket` `HTTP/HTTPS` `FTP` `DNS / DDNS` `VPN` `Firewall`
 
-## 資安與治理
+## Information Security
 
-- 弱點掃描、備份與應變機制
-- 防火牆、VPN 遠端安全設定
-- 權限分層與最高權限帳號控管
-- 資安政策制定與員工教育訓練
-- ISO 14064 / 50001 / 14001 / 20400 專案經驗
-- ISO 27001 / SSCP 進修中
+| Area | Capability |
+|---|---|
+| Governance | Security policy authoring, staff training programs |
+| Vulnerability mgmt | Vulnerability scanning, remediation, reporting |
+| Resilience | Backup strategy, disaster recovery playbooks |
+| Access control | Privileged identity, MFA, VPN policy |
+| Compliance | ISO 14064 · 50001 · 14001 · 20400 delivery experience |
+| In progress | SSCP · ISO/IEC 27001 Lead Implementer |
 
-## 系統整合
+## Integrations Shipped
 
-- Active Directory 管理
-- EIP 平台、排程寄信系統
-- 金流串接（LinePay、玉山 Pay API）
-- ERP 進銷存、會計、POS、電子發票整合
+- **Payment APIs** — LinePay, E.SUN Bank Pay (end-to-end checkout integration)
+- **E-invoicing** — Cloud-based invoice issuance via C# MVC / WebAPI / DDNS
+- **ERP modules** — Qboss inventory, accounting, POS, e-invoicing customization
 
-## 辦公室應用
+## Tooling & DevOps
 
-Excel · Word · PowerPoint · Outlook · 中文打字 125–150 字/分
+`Visual Studio` `Git` `GitHub Actions` `PowerShell` `Windows Server`
 
-## 語言
+## Business Software
 
-| 語言 | 聽 | 說 | 讀 | 寫 | 備註 |
+Microsoft Excel · Word · PowerPoint · Outlook (advanced)
+Chinese typing: 125–150 chars/min
+
+---
+
+## Languages
+
+| Language | Listening | Speaking | Reading | Writing | Certification |
 |---|---|---|---|---|---|
-| 中文 | 母語 | 母語 | 母語 | 母語 | — |
-| 日文 | 精通 | 中等 | 精通 | 中等 | JLPT N2 |
-| 英文 | 中等 | 中等 | 中等 | 中等 | — |
-| 台語 | 中等 | 中等 | — | — | — |
+| **Mandarin Chinese** | Native | Native | Native | Native | — |
+| **Japanese** | Advanced | Intermediate | Advanced | Intermediate | JLPT N2 |
+| **English** | Intermediate | Intermediate | Intermediate | Intermediate | — |
+| **Taiwanese Hokkien** | Intermediate | Intermediate | — | — | — |

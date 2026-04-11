@@ -14,3 +14,24 @@ body {
   background: #0f3d3e;
   color: #fafaf7;
 }
+
+.bg-dot-grid {
+  background-image: radial-gradient(circle, #d9d8cf 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.chip {
+  @apply inline-flex items-center gap-1.5 rounded-md border border-ink/15 bg-paper px-2.5 py-1 font-mono text-xs font-medium text-ink-soft transition-colors;
+}
+
+.chip-tech {
+  @apply border-tech/30 bg-tech/5 text-tech;
+}
+
+.dot-live {
+  @apply inline-block h-2 w-2 rounded-full bg-status-live;
+}
+
+.dot-pending {
+  @apply inline-block h-2 w-2 rounded-full bg-status-pending;
+}

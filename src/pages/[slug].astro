@@ -14,15 +14,18 @@ type Props = { section: CollectionEntry<'sections'> };
 
 const { section } = Astro.props;
 const { Content } = await section.render();
+const orderStr = section.data.order.toString().padStart(2, '0');
 ---
 
-<Layout title={`${section.data.title} · 詹詠文`} description={section.data.description}>
+<Layout title={`${section.data.title} — Jan Yung Wen`} description={section.data.description}>
   <article class="mx-auto max-w-content px-8 pt-28 pb-20 lg:px-16">
     <header class="mb-12 border-b border-ink/10 pb-8">
-      <p class="font-display text-xs font-bold uppercase tracking-[0.4em] text-accent">
-        Section · {section.data.order.toString().padStart(2, '0')}
-      </p>
-      <h1 class="mt-4 flex items-center gap-4 font-display text-5xl font-black tracking-tight text-ink lg:text-6xl">
+      <div class="mb-4 flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.25em] text-tech">
+        <span>section · {orderStr}</span>
+        <span class="text-ink-muted">//</span>
+        <span class="text-ink-muted">/{section.slug}.md</span>
+      </div>
+      <h1 class="flex items-center gap-4 font-display text-5xl font-black tracking-tight text-ink lg:text-6xl">
         <span>{section.data.icon}</span>
         <span>{section.data.title}</span>
       </h1>
@@ -31,7 +34,7 @@ const { Content } = await section.render();
       )}
     </header>
 
-    <div class="prose prose-lg prose-neutral max-w-none prose-headings:font-display prose-headings:font-black prose-headings:tracking-tight prose-a:text-accent hover:prose-a:text-accent-hover">
+    <div class="prose prose-lg prose-neutral max-w-none prose-headings:font-display prose-headings:font-black prose-headings:tracking-tight prose-a:text-tech hover:prose-a:text-accent prose-code:rounded prose-code:bg-paper-soft prose-code:px-1.5 prose-code:py-0.5 prose-code:font-mono prose-code:text-[0.85em] prose-code:before:content-none prose-code:after:content-none prose-hr:border-ink/10 prose-strong:text-ink prose-table:font-mono prose-table:text-sm prose-th:text-ink">
       <Content />
     </div>
   </article>

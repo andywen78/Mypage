@@ -7,11 +7,11 @@ interface Props {
   description?: string;
 }
 
-const { title, description = '詹詠文的個人網站' } = Astro.props;
+const { title, description = 'Jan Yung Wen — IT & Information Security Lead' } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="zh-Hant">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,24 +20,31 @@ const { title, description = '詹詠文的個人網站' } = Astro.props;
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800;900&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <title>{title}</title>
   </head>
   <body class="bg-paper text-ink font-body antialiased">
-    <div class="flex min-h-screen">
+    <div class="relative flex min-h-screen">
       <Sidebar />
       <main class="flex-1 lg:ml-72">
         <slot />
-        <footer class="mt-24 border-t border-ink/10 py-10 text-center text-sm text-ink-muted">
-          © {new Date().getFullYear()} 詹詠文 · Built with Astro
+        <footer class="mt-24 border-t border-ink/10 px-8 py-10 lg:px-16">
+          <div class="flex flex-col items-start justify-between gap-4 text-xs lg:flex-row lg:items-center">
+            <p class="font-mono text-ink-muted">
+              <span class="text-tech">//</span> © {new Date().getFullYear()} Jan Yung Wen · Built with Astro + Tailwind
+            </p>
+            <p class="font-mono text-ink-muted">
+              <span class="mr-1 inline-block h-2 w-2 animate-pulse rounded-full bg-status-live align-middle"></span>
+              system online
+            </p>
+          </div>
         </footer>
       </main>
     </div>
 
     <script>
-      // Mobile sidebar toggle
       const toggle = document.getElementById('sidebar-toggle');
       const sidebar = document.getElementById('sidebar');
       const overlay = document.getElementById('sidebar-overlay');

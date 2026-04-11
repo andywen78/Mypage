@@ -1,58 +1,56 @@
 ---
-title: 專案作品
+title: Projects
 order: 5
-icon: '🚀'
-description: 代表性專案與校內專題
+icon: '◉'
+description: Shipped systems and capstone work
 ---
 
-## Qboss 電子發票整合系統網頁版
-**2018 / 3 – 2018 / 8** · 弈飛資訊
+## Qboss Web E-Invoicing Platform
+`2018` · Yifei Information Systems
+**Stack**: `C# MVC` `WebAPI` `IIS` `DDNS` `MS SQL`
 
-**技術棧**：`C# MVC` · `WebAPI` · `WebServer` · `DDNS` · `MS SQL`
+**Problem** — Qboss e-invoicing was stuck on-premise. Field sales staff couldn't issue invoices without physically returning to the office, creating day-long delays and lost revenue on urgent deals.
 
-應用 C# MVC、WebServer、WebAPI 與 DDNS，與現有系統資料庫整合並延伸開發，將原本只能本機操作的架構**升級為雲端操作**。外勤業務只需手機瀏覽器開啟設定好的網域即可開立發票，大幅提升使用效率與作業彈性。
+**Solution** — Designed and built a web layer on top of the existing Qboss database using C# MVC and WebAPI, with DDNS to expose the service over the internet while keeping the SQL backend on-prem.
 
----
-
-## 內部排程系統
-**2019 – 2020** · 順發電腦
-
-**技術棧**：`C#` · `Windows Form` · `MS SQL`
-
-自主開發公司內部任務排程與自動化系統，整合每日營業報表的產出流程，減少人工作業時間。
+**Impact** — Sales teams could now issue invoices from any mobile browser at the customer site. Adopted across the Qboss client base as a standard offering.
 
 ---
 
-## B2B 外部廠商送單網站
-**2019 – 2020** · 順發電腦
+## Internal Task Scheduling System
+`2019 – 2020` · Sunfar Computer
+**Stack**: `C#` `Windows Forms` `MS SQL`
 
-**技術棧**：`ASP.NET MVC` · `MS SQL`
+**Problem** — Regional managers spent hours every morning manually compiling the previous day's sales data from multiple sources into Excel.
 
-維護與客製化 B2B 外部廠商的送單網站與日報系統，依不同廠商需求調整介面與報表邏輯。
+**Solution** — Built an internal scheduling service that ran report generation nightly and delivered consolidated daily-ops reports to managers before business hours.
 
----
-
-## 金流 API 串接整合
-**2019 – 2020** · 順發電腦
-
-**技術棧**：`C#` · `WebAPI` · `LinePay API` · `玉山 Pay API`
-
-維護與開發金流串接（LinePay、玉山 Pay API），與外部廠商協作完成金流對接與異常處理流程。
+**Impact** — Recovered ~1 hour/day per regional manager. Eliminated transcription errors from manual compilation.
 
 ---
 
-## iBeacon 室內定位 × 虛擬實境 MR
-**校內跨校專題** · 國立高雄師範大學
+## Payment API Integration — LinePay & E.SUN Bank Pay
+`2019 – 2020` · Sunfar Computer
+**Stack**: `C#` `WebAPI` `LinePay API` `E.SUN Bank Pay API`
 
-**技術棧**：`iBeacon` · `MR` · `Unity`
+**Problem** — E-commerce checkout needed to support two additional local payment rails to reduce cart abandonment.
 
-結合 iBeacon 室內定位技術與 MR 混合實境，實作室內空間中的互動體驗。與跨校團隊合作，累積硬體整合與空間計算經驗。
+**Solution** — Implemented the full integration lifecycle with both providers — sandbox testing, production handshake, error handling, reconciliation — coordinating directly with bank technical teams.
+
+**Impact** — Delivered on schedule without production incidents. Customers gained two additional native payment options at checkout.
 
 ---
 
-## Unity 2D 橫向卷軸遊戲《龍之痕》
-**校內專題** · 國立高雄師範大學
+## iBeacon Indoor Localization × Mixed Reality
+`2016` · Capstone — National Kaohsiung Normal University
+**Stack**: `iBeacon (BLE)` `Unity` `MR`
 
-**技術棧**：`Unity 2D` · `C#`
+Cross-school capstone combining BLE iBeacon positioning with Unity-based mixed-reality interaction. Explored how indoor positioning could trigger spatial MR experiences in museum and retail contexts. My contribution: BLE signal processing, coordinate mapping, and Unity integration.
 
-橫向卷軸動作遊戲，從企劃、美術協作到程式實作全流程參與。在專案中負責角色控制、關卡邏輯與遊戲狀態機。
+---
+
+## "Trace of Dragon" (龍之痕) — Unity 2D Action Platformer
+`2015` · Capstone — National Kaohsiung Normal University
+**Stack**: `Unity 2D` `C#`
+
+Side-scrolling action game built end-to-end by a small student team. Owned the character controller, level logic, and game state machine; collaborated with the art team on animation hooks and combat feedback.
