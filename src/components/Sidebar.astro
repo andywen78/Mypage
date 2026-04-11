@@ -1,0 +1,90 @@
+---
+import { getCollection } from 'astro:content';
+
+const sections = (await getCollection('sections')).sort(
+  (a, b) => a.data.order - b.data.order
+);
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const currentPath = Astro.url.pathname.replace(/\/$/, '');
+---
+
+<button
+  id="sidebar-toggle"
+  class="fixed top-4 left-4 z-50 rounded-lg bg-ink p-3 text-paper shadow-lg lg:hidden"
+  aria-label="Toggle navigation"
+>
+  <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+  </svg>
+</button>
+
+<div id="sidebar-overlay" class="fixed inset-0 z-30 hidden bg-ink/40 lg:hidden"></div>
+
+<aside
+  id="sidebar"
+  class="fixed inset-y-0 left-0 z-40 w-72 -translate-x-full transform overflow-y-auto border-r border-ink/10 bg-paper-soft px-8 py-10 transition-transform duration-200 lg:translate-x-0"
+>
+  <a href={`${base}/`} class="mb-10 block">
+    <p class="font-display text-3xl font-black tracking-tight text-ink">
+      詹詠文
+    </p>
+    <p class="mt-1 font-display text-xs uppercase tracking-[0.3em] text-accent">
+      Andy Chan · Portfolio
+    </p>
+  </a>
+
+  <nav>
+    <p class="mb-4 font-display text-[10px] font-bold uppercase tracking-[0.3em] text-ink-muted">
+      Navigation
+    </p>
+    <ul class="space-y-1">
+      <li>
+        <a
+          href={`${base}/`}
+          class:list={[
+            'group flex items-center gap-3 rounded-lg px-3 py-2.5 font-display text-sm font-semibold transition-colors',
+            currentPath === base || currentPath === ''
+              ? 'bg-ink text-paper'
+              : 'text-ink-soft hover:bg-ink/5 hover:text-ink',
+          ]}
+        >
+          <span class="text-lg leading-none">🏠</span>
+          <span>首頁</span>
+        </a>
+      </li>
+      {
+        sections.map((section) => {
+          const href = `${base}/${section.slug}`;
+          const active = currentPath === href;
+          return (
+            <li>
+              <a
+                href={href}
+                class:list={[
+                  'group flex items-center gap-3 rounded-lg px-3 py-2.5 font-display text-sm font-semibold transition-colors',
+                  active
+                    ? 'bg-ink text-paper'
+                    : 'text-ink-soft hover:bg-ink/5 hover:text-ink',
+                ]}
+              >
+                <span class="text-lg leading-none">{section.data.icon ?? '•'}</span>
+                <span>{section.data.title}</span>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </nav>
+
+  <div class="mt-10 border-t border-ink/10 pt-6">
+    <p class="font-display text-[10px] font-bold uppercase tracking-[0.3em] text-ink-muted">
+      Elsewhere
+    </p>
+    <div class="mt-4 flex flex-col gap-2 text-sm text-ink-soft">
+      <a href="https://github.com/andywen78" class="hover:text-accent" target="_blank" rel="noreferrer">GitHub ↗</a>
+      <a href="mailto:your@email.com" class="hover:text-accent">Email ↗</a>
+    </div>
+  </div>
+</aside>

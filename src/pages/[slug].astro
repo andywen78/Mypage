@@ -1,0 +1,38 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const sections = await getCollection('sections');
+  return sections.map((section) => ({
+    params: { slug: section.slug },
+    props: { section },
+  }));
+}
+
+type Props = { section: CollectionEntry<'sections'> };
+
+const { section } = Astro.props;
+const { Content } = await section.render();
+---
+
+<Layout title={`${section.data.title} · 詹詠文`} description={section.data.description}>
+  <article class="mx-auto max-w-content px-8 pt-28 pb-20 lg:px-16">
+    <header class="mb-12 border-b border-ink/10 pb-8">
+      <p class="font-display text-xs font-bold uppercase tracking-[0.4em] text-accent">
+        Section · {section.data.order.toString().padStart(2, '0')}
+      </p>
+      <h1 class="mt-4 flex items-center gap-4 font-display text-5xl font-black tracking-tight text-ink lg:text-6xl">
+        <span>{section.data.icon}</span>
+        <span>{section.data.title}</span>
+      </h1>
+      {section.data.description && (
+        <p class="mt-4 max-w-2xl text-lg text-ink-soft">{section.data.description}</p>
+      )}
+    </header>
+
+    <div class="prose prose-lg prose-neutral max-w-none prose-headings:font-display prose-headings:font-black prose-headings:tracking-tight prose-a:text-accent hover:prose-a:text-accent-hover">
+      <Content />
+    </div>
+  </article>
+</Layout>
