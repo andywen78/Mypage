@@ -1,7 +1,7 @@
 ---
 title: Contact
 order: 6
-icon: '→'
+icon: 'mail'
 description: Get in touch
 ---
 

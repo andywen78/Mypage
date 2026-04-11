@@ -1,7 +1,7 @@
 ---
 title: Summary
 order: 1
-icon: '◆'
+icon: 'user'
 description: Professional summary and work philosophy
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Certifications
 order: 4
-icon: '✦'
+icon: 'award'
 description: Earned credentials and certifications in progress
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Experience
 order: 2
-icon: '▲'
+icon: 'briefcase'
 description: Professional experience and education
 ---
 

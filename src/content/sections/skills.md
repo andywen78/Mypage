@@ -1,7 +1,7 @@
 ---
 title: Skills
 order: 3
-icon: '❯'
+icon: 'terminal'
 description: Technical stack, security competencies, and languages
 ---
 

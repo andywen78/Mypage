@@ -1,7 +1,7 @@
 ---
 title: Projects
 order: 5
-icon: '◉'
+icon: 'rocket'
 description: Shipped systems and capstone work
 ---
 

@@ -1,6 +1,7 @@
 ---
 import { getCollection, type CollectionEntry } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
 
 export async function getStaticPaths() {
   const sections = await getCollection('sections');
@@ -25,8 +26,10 @@ const orderStr = section.data.order.toString().padStart(2, '0');
         <span class="text-ink-muted">//</span>
         <span class="text-ink-muted">{section.slug}</span>
       </div>
-      <h1 class="flex items-center gap-4 font-display text-5xl font-black tracking-tight text-ink lg:text-6xl">
-        <span>{section.data.icon}</span>
+      <h1 class="flex items-center gap-5 font-display text-5xl font-black tracking-tight text-ink lg:text-6xl">
+        <span class="flex h-14 w-14 flex-none items-center justify-center rounded-lg bg-tech/10 text-tech lg:h-16 lg:w-16">
+          <Icon name={section.data.icon} class="h-7 w-7 lg:h-8 lg:w-8" />
+        </span>
         <span>{section.data.title}</span>
       </h1>
       {section.data.description && (
