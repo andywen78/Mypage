@@ -13,7 +13,7 @@ description: Technical stack, security competencies, and languages
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="" class="h-5 w-5" loading="lazy" /><span>Java</span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" class="h-5 w-5" loading="lazy" /><span>JavaScript</span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="" class="h-5 w-5" loading="lazy" /><span>C</span></div>
-  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt="" class="h-5 w-5" loading="lazy" /><span>VB.NET</span></div>
+  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><span class="flex h-5 w-5 flex-none items-center justify-center rounded bg-[#512BD4] text-[9px] font-black text-white">VB</span><span>VB.NET</span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" alt="" class="h-5 w-5" loading="lazy" /><span>Unity C#</span></div>
 </div>
 
@@ -25,7 +25,7 @@ description: Technical stack, security competencies, and languages
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" class="h-5 w-5" loading="lazy" /><span>HTML5</span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" class="h-5 w-5" loading="lazy" /><span>CSS3</span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" alt="" class="h-5 w-5" loading="lazy" /><span>jQuery</span></div>
-  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" class="h-5 w-5" loading="lazy" /><span>AJAX</span></div>
+  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><span class="flex h-5 w-5 flex-none items-center justify-center rounded bg-[#f7df1e] text-[8px] font-black text-black">AJ</span><span>AJAX</span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" alt="" class="h-5 w-5" loading="lazy" /><span>Unity 2D</span></div>
 </div>
 
@@ -34,17 +34,17 @@ description: Technical stack, security competencies, and languages
 <div class="not-prose my-6 grid grid-cols-2 gap-2.5 sm:grid-cols-3">
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" alt="" class="h-5 w-5" loading="lazy" /><span>MS SQL Server</span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="" class="h-5 w-5" loading="lazy" /><span>MySQL</span></div>
-  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.simpleicons.org/microsoftaccess" alt="" class="h-5 w-5" loading="lazy" /><span>MS Access</span></div>
+  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><span class="flex h-5 w-5 flex-none items-center justify-center rounded bg-[#A4373A] text-[10px] font-black text-white">A</span><span>MS Access</span></div>
 </div>
 
 ## Infrastructure & Networking
 
 <div class="not-prose my-6 grid grid-cols-2 gap-2.5 sm:grid-cols-3 md:grid-cols-4">
-  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.simpleicons.org/microsoft/2563eb" alt="" class="h-5 w-5" loading="lazy" /><span>Active Directory</span></div>
+  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><span class="flex h-5 w-5 flex-none items-center justify-center rounded bg-[#0078D4] text-[9px] font-black text-white">AD</span><span>Active Directory</span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original.svg" alt="" class="h-5 w-5" loading="lazy" /><span>Tomcat</span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" alt="" class="h-5 w-5" loading="lazy" /><span>Windows Server</span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.simpleicons.org/cisco" alt="" class="h-5 w-5" loading="lazy" /><span>TCP/IP · VPN</span></div>
-  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.simpleicons.org/pfsense/0f3d3e" alt="" class="h-5 w-5" loading="lazy" /><span>Firewall</span></div>
+  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><span class="flex h-5 w-5 flex-none items-center justify-center rounded bg-[#0f3d3e] text-[11px] leading-none text-white">🛡</span><span>Firewall</span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.simpleicons.org/openvpn" alt="" class="h-5 w-5" loading="lazy" /><span>DNS / DDNS</span></div>
 </div>
 
@@ -72,7 +72,7 @@ description: Technical stack, security competencies, and languages
 ## AI-Assisted Engineering
 
 <div class="not-prose my-6 grid grid-cols-2 gap-2.5 sm:grid-cols-3">
-  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.simpleicons.org/openai" alt="" class="h-5 w-5" loading="lazy" /><span>ChatGPT</span></div>
+  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><span class="flex h-5 w-5 flex-none items-center justify-center rounded bg-[#10A37F] text-[8px] font-black text-white">GPT</span><span>ChatGPT</span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.simpleicons.org/anthropic" alt="" class="h-5 w-5" loading="lazy" /><span>Claude</span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.simpleicons.org/githubcopilot" alt="" class="h-5 w-5" loading="lazy" /><span>GitHub Copilot</span></div>
 </div>
