@@ -41,7 +41,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '');
 
   <nav>
     <p class="mb-3 font-mono text-[10px] uppercase tracking-[0.25em] text-ink-muted">
-      <span class="text-tech">$</span> ls ./sections
+      <span class="text-tech">//</span> navigation
     </p>
     <ul class="space-y-0.5">
       <li>
@@ -55,7 +55,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '');
           ]}
         >
           <span class="text-tech/80">▸</span>
-          <span>resume.md</span>
+          <span>Resume</span>
         </a>
       </li>
       {
@@ -74,7 +74,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '');
                 ]}
               >
                 <span class="text-tech/80">▸</span>
-                <span>{section.slug}.md</span>
+                <span>{section.data.title}</span>
               </a>
             </li>
           );
