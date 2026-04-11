@@ -5,6 +5,10 @@ icon: 'rocket'
 description: Shipped systems and capstone work
 ---
 
+Selected work presented in a **Problem → Solution → Impact** format. Earlier capstone projects from my university years appear at the bottom for context on foundational experience.
+
+---
+
 ## Web-Based E-Invoicing Platform
 `2018` · Yifei Information Systems
 **Stack**: `C# MVC` `WebAPI` `IIS` `DDNS` `MS SQL`
@@ -29,15 +33,15 @@ description: Shipped systems and capstone work
 
 ---
 
-## Payment API Integration — LinePay & E.SUN Bank Pay
+## Payment API Integration — LinePay & E.SUN Pay
 `2019 – 2020` · Sunfar Computer
-**Stack**: `C#` `WebAPI` `LinePay API` `E.SUN Bank Pay API`
+**Stack**: `C#` `WebAPI` `LinePay API` `E.SUN Pay API`
 
-**Problem** — E-commerce checkout needed to support two additional local payment rails to reduce cart abandonment.
+**Problem** — The e-commerce checkout needed to support **LinePay** and **E.SUN Pay**, two of Taiwan's most widely used mobile payment platforms, to reduce cart abandonment for customers who preferred these rails.
 
-**Solution** — Implemented the full integration lifecycle with both providers — sandbox testing, production handshake, error handling, reconciliation — coordinating directly with bank technical teams.
+**Solution** — Implemented the full integration lifecycle with both providers — sandbox testing, production handshake, error handling, and reconciliation — coordinating directly with the bank technical teams.
 
-**Impact** — Delivered on schedule without production incidents. Customers gained two additional native payment options at checkout.
+**Impact** — Delivered on schedule without production incidents. The storefront gained two native payment options that matched mainstream consumer expectations in Taiwan.
 
 ---
 
@@ -53,4 +57,4 @@ Cross-school capstone combining BLE iBeacon positioning with Unity-based mixed-r
 `2015` · Capstone — National Kaohsiung Normal University
 **Stack**: `Unity 2D` `C#`
 
-Side-scrolling action game built end-to-end by a small student team. Owned the character controller, level logic, and game state machine; collaborated with the art team on animation hooks and combat feedback.
+Side-scrolling action game built end-to-end by a small student team. Led the character controller, level logic, and game state machine development, and collaborated with the art team on animation hooks and combat feedback.

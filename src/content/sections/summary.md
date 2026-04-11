@@ -7,9 +7,9 @@ description: Professional summary and work philosophy
 
 ## Professional Summary
 
-IT & Information Security Lead with **8+ years** of experience spanning software engineering, systems integration, and enterprise security governance. Currently own the full IT and InfoSec stack at **Taiwan Cooperative Venture Capital (TCVC)**, where I built the infrastructure powering a 30-person investment team, shipped 4 ISO certifications, and established the company-wide security program from scratch.
+IT & Information Security Lead with **8+ years** of experience across software engineering, systems integration, and enterprise security governance. I currently lead the full IT and information security function at **Taiwan Cooperative Venture Capital (TCVC)** — a Taipei-based venture capital firm — where I built the infrastructure supporting a ~30-person investment team, delivered four ISO certifications, and established the company-wide security program from scratch.
 
-Comfortable moving between C# backend development, Active Directory administration, firewall/VPN hardening, and boardroom-level compliance reporting. Bilingual working proficiency in **Mandarin and Japanese (JLPT N2)**.
+Comfortable moving between C# backend development, Active Directory administration, firewall and VPN hardening, and boardroom-level compliance reporting. Native Mandarin speaker with **business-level Japanese (JLPT N2)** and professional working English.
 
 ---
 
@@ -29,14 +29,14 @@ Comfortable moving between C# backend development, Active Directory administrati
 
 > **"Take initiative. Learn relentlessly."**
 
-Since my university years I've treated new technologies and unfamiliar problems as invitations, not obstacles. In practice this means:
+I treat new technologies and unfamiliar problems as invitations, not obstacles. In practice that means:
 
-- **Shipping beats theorizing.** The fastest way to understand a system is to build and operate it.
+- **Building beats theorizing.** The fastest way to understand a system is to build and operate it.
 - **Security is a team sport.** Policies die without training; training dies without operational buy-in.
-- **Bridges matter.** I spend as much time translating between engineers, auditors, and business owners as I do writing code.
+- **Bridges matter.** I spend as much time translating between engineers, auditors, and business stakeholders as I do writing code.
 
 ---
 
 ## Open To
 
-Roles where IT ownership, security governance, and engineering execution meet — especially those with **cross-border (US / Japan / APAC)** scope. Comfortable relocating or working remote-first.
+Roles where IT ownership, security governance, and engineering execution intersect — especially those with **cross-border scope (US · Japan · APAC)**. Open to relocation and remote-first arrangements.

@@ -81,7 +81,7 @@ Daily use of LLM tools for code review, security policy drafting, documentation,
 
 ## Business Software
 
-Microsoft Excel · Word · PowerPoint · Outlook (advanced) · Chinese typing 125–150 chars/min
+Microsoft Excel · Word · PowerPoint · Outlook (advanced)
 
 ## Integrations Shipped
 
@@ -93,9 +93,11 @@ Microsoft Excel · Word · PowerPoint · Outlook (advanced) · Chinese typing 12
 
 ## Languages
 
-| Language | Listening | Speaking | Reading | Writing | Certification |
-|---|---|---|---|---|---|
-| **Mandarin Chinese** | Native | Native | Native | Native | — |
-| **Japanese** | Advanced | Intermediate | Advanced | Intermediate | JLPT N2 |
-| **English** | Intermediate | Intermediate | Intermediate | Intermediate | — |
-| **Taiwanese Hokkien** | Intermediate | Intermediate | — | — | — |
+Clear communication across three business languages; comfortable reading technical documentation in both English and Japanese.
+
+| Language | Proficiency | Certification |
+|---|---|---|
+| **Mandarin Chinese** | Native | — |
+| **Japanese** | Business-level (advanced reading, intermediate conversation) | JLPT N2 |
+| **English** | Professional working proficiency | — |
+| **Taiwanese Hokkien** | Conversational | — |

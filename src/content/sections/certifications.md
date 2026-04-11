@@ -31,8 +31,8 @@ description: Earned credentials and certifications in progress
       <div class="flex-1">
         <div class="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.2em] text-status-live"><span class="h-1.5 w-1.5 rounded-full bg-status-live"></span> earned</div>
         <h3 class="mt-1 font-display text-lg font-black text-ink">JLPT N2</h3>
-        <p class="text-xs text-ink-muted">Japanese Language Proficiency Test</p>
-        <p class="mt-2 text-sm text-ink-soft">Advanced-level business Japanese — comfortable with technical documentation and written business communication.</p>
+        <p class="text-xs text-ink-muted">Japanese Language Proficiency Test · Second-highest of five levels</p>
+        <p class="mt-2 text-sm text-ink-soft">Upper-intermediate business Japanese — comfortable reading technical documentation and handling written business communication.</p>
       </div>
     </div>
   </div>
@@ -43,9 +43,9 @@ description: Earned credentials and certifications in progress
       <div class="flex h-14 w-14 flex-none items-center justify-center rounded-md border border-ink/10 bg-gradient-to-br from-accent to-accent-hover font-display text-2xl text-white">◆</div>
       <div class="flex-1">
         <div class="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.2em] text-status-live"><span class="h-1.5 w-1.5 rounded-full bg-status-live"></span> earned</div>
-        <h3 class="mt-1 font-display text-lg font-black text-ink">Computer Software Applications — Class C</h3>
-        <p class="text-xs text-ink-muted">Ministry of Labor · Taiwan Workforce Development Agency</p>
-        <p class="mt-2 text-sm text-ink-soft">National technical certification covering programming, database operations, and office productivity software.</p>
+        <h3 class="mt-1 font-display text-lg font-black text-ink">Computer Software Applications Technician</h3>
+        <p class="text-xs text-ink-muted">National Technical Certification · Ministry of Labor, Taiwan</p>
+        <p class="mt-2 text-sm text-ink-soft">Government-issued technical certification covering programming, database operations, and office productivity software.</p>
       </div>
     </div>
   </div>
@@ -56,9 +56,9 @@ description: Earned credentials and certifications in progress
       <div class="flex h-14 w-14 flex-none items-center justify-center rounded-md border border-ink/10 bg-gradient-to-br from-amber-500 to-amber-600 font-display text-xl text-white">⛑</div>
       <div class="flex-1">
         <div class="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.2em] text-status-live"><span class="h-1.5 w-1.5 rounded-full bg-status-live"></span> earned</div>
-        <h3 class="mt-1 font-display text-lg font-black text-ink">OSH Manager — Class C</h3>
-        <p class="text-xs text-ink-muted">Occupational Safety &amp; Health Administration · Taiwan</p>
-        <p class="mt-2 text-sm text-ink-soft">Legal qualification for corporate occupational safety &amp; health oversight, risk assessment, and incident response.</p>
+        <h3 class="mt-1 font-display text-lg font-black text-ink">Occupational Safety &amp; Health Manager</h3>
+        <p class="text-xs text-ink-muted">Certified under Taiwan OSH Administration</p>
+        <p class="mt-2 text-sm text-ink-soft">Statutory qualification for corporate occupational safety oversight, risk assessment, and incident response.</p>
       </div>
     </div>
   </div>

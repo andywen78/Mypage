@@ -9,14 +9,14 @@ description: Professional experience and education
 **Taiwan Cooperative Venture Capital Co., Ltd.** — Taipei, Taiwan
 `Dec 2020 – Present` · Venture Capital · ~30 employees
 
-Owning the full IT and InfoSec stack for a boutique VC firm, reporting directly to the executive team. Built the program from the ground up — there was no dedicated IT function when I joined.
+Leading the full IT and information security function for a boutique VC firm, reporting directly to the executive team. Built the program from the ground up — there was no dedicated IT function when I joined.
 
-- **Own end-to-end infrastructure**: on-prem servers, networking, firewalls, NAS storage, and Active Directory — zero unplanned downtime since taking ownership
-- **Delivered 4 ISO certifications** by leading the IT workstreams for ISO 14064 · 50001 · 14001 · 20400, coordinating auditors, documenting controls, and running internal training
-- **Established company-wide security program** from scratch: policies, vulnerability scans, backup & disaster-recovery playbook, staff security-awareness curriculum
-- **Built & maintain internal platforms** in-house: accounting system, overtime/attendance portal, scheduled email automation, management reporting — consolidating tools previously run in Excel
-- **Hardened privileged access**: deployed AD-based role separation, MFA, and VPN policies protecting ~30 users and critical financial systems
-- **Currently pursuing SSCP and ISO/IEC 27001 Lead Implementer** to formalize the program against international frameworks
+- **Own end-to-end infrastructure** — on-prem servers, networking, firewalls, NAS storage, and Active Directory; maintain high availability for daily operations and protect critical financial systems
+- **Delivered four ISO certifications** (ISO 14064 · 50001 · 14001 · 20400) by leading the IT workstreams, coordinating with external auditors, documenting controls, and running internal training sessions
+- **Established the company-wide security program from scratch** — policies, vulnerability scanning, backup and disaster-recovery playbooks, and a staff security-awareness curriculum
+- **Built and maintain internal platforms in-house** — accounting system, attendance portal, scheduled email automation, and management reporting, consolidating workflows previously run on spreadsheets
+- **Hardened privileged access** with AD-based role separation, MFA, and VPN policies protecting ~30 user accounts and the firm's financial systems
+- **Currently pursuing SSCP and ISO/IEC 27001 Lead Implementer** to formally align the program with international frameworks
 
 ---
 
@@ -24,11 +24,11 @@ Owning the full IT and InfoSec stack for a boutique VC firm, reporting directly 
 **Sunfar Computer Co., Ltd.** — Kaohsiung, Taiwan
 `Feb 2019 – Dec 2020` · Computer Retail · 500+ employees
 
-Backend & integration work on the internal software platform powering a national computer retailer.
+Backend and integration work on the internal software platform powering one of Taiwan's largest computer retailers.
 
-- **Shipped internal task scheduling system** that automated daily sales reporting, eliminating manual Excel compilation for regional managers
-- **Maintained and customized B2B vendor ordering portal**, implementing per-vendor UI and reporting variants
-- **Integrated LinePay and E.SUN Bank Pay APIs** into the e-commerce checkout flow, coordinating with bank technical contacts through production launch
+- **Built an internal task scheduling system** that automated daily sales reporting, eliminating manual spreadsheet compilation for regional managers
+- **Maintained and customized the B2B vendor ordering portal**, implementing per-vendor UI and reporting variants
+- **Integrated LinePay and E.SUN Bank Pay APIs** — two of Taiwan's most widely used digital payment platforms — into the e-commerce checkout flow, coordinating with bank technical teams through to production launch
 
 ---
 
@@ -36,20 +36,17 @@ Backend & integration work on the internal software platform powering a national
 **Yifei Information Systems** — Kaohsiung, Taiwan
 `Jul 2017 – Oct 2018` · Enterprise Software · ~30 employees
 
-First production engineering role, building and customizing an ERP suite for Taiwanese SMBs covering inventory, accounting, POS, and e-invoicing.
+My first production engineering role, building and customizing an ERP suite for Taiwanese small and mid-sized businesses covering inventory, accounting, POS, and e-invoicing.
 
-- **Designed and shipped a web-based e-invoicing platform** from scratch (C# MVC · WebAPI · DDNS), lifting an on-premise-only invoicing system into a mobile-accessible cloud deployment — enabling field sales to issue invoices from any smartphone browser
-- Maintained and customized ERP modules across inventory, accounting, POS, and e-invoicing for ~50 SMB clients
+- **Designed and built a web-based e-invoicing platform** from scratch using C# MVC, WebAPI, and DDNS — lifting an on-premise-only invoicing system into a mobile-accessible cloud deployment that let field sales issue invoices from any smartphone browser
+- **Maintained and customized ERP modules** across inventory, accounting, POS, and e-invoicing for approximately 50 SMB clients
 
 ---
 
 ## Education
 
-### B.S. Software Engineering
+### B.S. in Software Engineering
 **National Kaohsiung Normal University** — Kaohsiung, Taiwan
 `Sep 2013 – Jun 2017`
 
-Core coursework in software architecture, database systems, network programming, and C#/Java development. Capstone projects:
-
-- **"iBeacon Indoor Localization × Mixed Reality"** — cross-school collaboration combining BLE positioning with VR/MR interaction
-- **"Trace of Dragon"** — Unity 2D side-scrolling action game; owned character controller, level logic, and game state machine
+Core coursework in software architecture, database systems, network programming, and C# / Java development. Cross-school capstone work included an **iBeacon × Mixed Reality** indoor-positioning prototype and **Trace of Dragon**, a Unity 2D action platformer where I led the character controller, level logic, and game state machine.
