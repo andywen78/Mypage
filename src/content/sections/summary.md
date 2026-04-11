@@ -7,7 +7,7 @@ description: Professional summary and work philosophy
 
 ## Professional Summary
 
-IT & Information Security Lead with **8+ years** of experience spanning software engineering, systems integration, and enterprise security governance. Currently own the full IT and InfoSec stack at **Taiwan Cooperative Bank Venture Capital (TCB-VC)**, where I built the infrastructure powering a 30-person investment team, shipped 4 ISO certifications, and established the company-wide security program from scratch.
+IT & Information Security Lead with **8+ years** of experience spanning software engineering, systems integration, and enterprise security governance. Currently own the full IT and InfoSec stack at **Taiwan Cooperative Venture Capital (TCVC)**, where I built the infrastructure powering a 30-person investment team, shipped 4 ISO certifications, and established the company-wide security program from scratch.
 
 Comfortable moving between C# backend development, Active Directory administration, firewall/VPN hardening, and boardroom-level compliance reporting. Bilingual working proficiency in **Mandarin and Japanese (JLPT N2)**.
 

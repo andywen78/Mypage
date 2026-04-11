@@ -5,15 +5,15 @@ icon: '◉'
 description: Shipped systems and capstone work
 ---
 
-## Qboss Web E-Invoicing Platform
+## Web-Based E-Invoicing Platform
 `2018` · Yifei Information Systems
 **Stack**: `C# MVC` `WebAPI` `IIS` `DDNS` `MS SQL`
 
-**Problem** — Qboss e-invoicing was stuck on-premise. Field sales staff couldn't issue invoices without physically returning to the office, creating day-long delays and lost revenue on urgent deals.
+**Problem** — The company's e-invoicing module was stuck on-premise. Field sales staff couldn't issue invoices without physically returning to the office, creating day-long delays and lost revenue on urgent deals.
 
-**Solution** — Designed and built a web layer on top of the existing Qboss database using C# MVC and WebAPI, with DDNS to expose the service over the internet while keeping the SQL backend on-prem.
+**Solution** — Designed and built a web layer on top of the existing ERP database using C# MVC and WebAPI, with DDNS to expose the service over the internet while keeping the SQL backend on-prem.
 
-**Impact** — Sales teams could now issue invoices from any mobile browser at the customer site. Adopted across the Qboss client base as a standard offering.
+**Impact** — Sales teams could now issue invoices from any mobile browser at the customer site. Adopted across the client base as a standard offering.
 
 ---
 

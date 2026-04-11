@@ -10,7 +10,7 @@ description: Earned credentials and certifications in progress
 ### ● CCNA — Cisco Certified Network Associate
 **Cisco Systems**
 
-Validates networking fundamentals — routing & switching, IP connectivity, network access, security basics, automation — core to running the on-prem networking layer at TCB-VC.
+Validates networking fundamentals — routing & switching, IP connectivity, network access, security basics, automation — core to running the on-prem networking layer at TCVC.
 
 ### ● JLPT N2 — Japanese Language Proficiency Test (Level N2)
 **Japan Foundation / Japan Educational Exchanges and Services**
@@ -39,7 +39,7 @@ Hands-on information security certification covering access controls, security o
 ### ◐ ISO/IEC 27001 Lead Implementer
 **ISMS Framework · Currently studying**
 
-Deep dive into the international standard for Information Security Management Systems. Preparing to formalize TCB-VC's security program against ISO 27001 controls.
+Deep dive into the international standard for Information Security Management Systems. Preparing to formalize TCVC's security program against ISO 27001 controls.
 
 ---
 

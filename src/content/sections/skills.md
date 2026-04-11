@@ -36,11 +36,18 @@ description: Technical stack, security competencies, and languages
 
 - **Payment APIs** — LinePay, E.SUN Bank Pay (end-to-end checkout integration)
 - **E-invoicing** — Cloud-based invoice issuance via C# MVC / WebAPI / DDNS
-- **ERP modules** — Qboss inventory, accounting, POS, e-invoicing customization
+- **ERP modules** — Inventory, accounting, POS, and e-invoicing customization for SMB clients
 
 ## Tooling & DevOps
 
-`Visual Studio` `Git` `GitHub Actions` `PowerShell` `Windows Server`
+`Visual Studio` `Git` `GitHub` `GitHub Actions` `PowerShell` `Windows Server`
+
+## AI-Assisted Engineering
+
+`ChatGPT` `Claude` `GitHub Copilot`
+
+Daily use of LLM tools for code review, security policy drafting, documentation,
+threat-model brainstorming, and accelerating internal tooling development.
 
 ## Business Software
 

@@ -6,7 +6,7 @@ description: Professional experience and education
 ---
 
 ## IT & Information Security Lead
-**Taiwan Cooperative Bank Venture Capital Co., Ltd.** — Taipei, Taiwan
+**Taiwan Cooperative Venture Capital Co., Ltd.** — Taipei, Taiwan
 `Dec 2020 – Present` · Venture Capital · ~30 employees
 
 Owning the full IT and InfoSec stack for a boutique VC firm, reporting directly to the executive team. Built the program from the ground up — there was no dedicated IT function when I joined.
@@ -36,10 +36,10 @@ Backend & integration work on the internal software platform powering a national
 **Yifei Information Systems** — Kaohsiung, Taiwan
 `Jul 2017 – Oct 2018` · Enterprise Software · ~30 employees
 
-First production engineering role, building and customizing the **Qboss** ERP suite for Taiwanese SMBs (inventory, accounting, POS, e-invoicing).
+First production engineering role, building and customizing an ERP suite for Taiwanese SMBs covering inventory, accounting, POS, and e-invoicing.
 
-- **Designed and shipped "Qboss Web E-Invoicing Platform"** from scratch (C# MVC · WebAPI · DDNS), lifting an on-premise-only invoicing system into a mobile-accessible cloud deployment — enabling field sales to issue invoices from any smartphone browser
-- Maintained and customized Qboss modules across inventory, accounting, POS, and e-invoicing for ~50 SMB clients
+- **Designed and shipped a web-based e-invoicing platform** from scratch (C# MVC · WebAPI · DDNS), lifting an on-premise-only invoicing system into a mobile-accessible cloud deployment — enabling field sales to issue invoices from any smartphone browser
+- Maintained and customized ERP modules across inventory, accounting, POS, and e-invoicing for ~50 SMB clients
 
 ---
 
