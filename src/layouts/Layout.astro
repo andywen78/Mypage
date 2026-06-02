@@ -5,9 +5,37 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
+  image?: string;
 }
 
-const { title, description = 'Yung-wen Jan — IT & Information Security Lead' } = Astro.props;
+// 站台網域 — 換自訂網域後改這一行 + astro.config.mjs 的 site/base
+const SITE_ORIGIN = 'https://andywen78.github.io';
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const {
+  title,
+  description = 'IT & Information Security Lead with 8+ years across software engineering, infrastructure, and ISO-aligned security governance. Open to roles in Taiwan, Japan, and APAC.',
+  image = `${SITE_ORIGIN}${BASE}/og.png`,
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, SITE_ORIGIN).href;
+
+// LinkedIn — 填入你的 LinkedIn 連結後,sameAs 與聯絡頁會一起顯示
+const LINKEDIN = 'https://www.linkedin.com/in/andywen78';
+
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Yung-wen Jan',
+  alternateName: '詹詠文',
+  jobTitle: 'IT & Information Security Lead',
+  url: `${SITE_ORIGIN}${BASE}/`,
+  email: 'overfly0708@gmail.com',
+  worksFor: { '@type': 'Organization', name: 'Taiwan Cooperative Venture Capital' },
+  address: { '@type': 'PostalAddress', addressLocality: 'Taipei', addressCountry: 'TW' },
+  knowsLanguage: ['zh-TW', 'ja', 'en'],
+  sameAs: ['https://github.com/andywen78', LINKEDIN],
+};
 ---
 
 <!doctype html>
@@ -16,6 +44,31 @@ const { title, description = 'Yung-wen Jan — IT & Information Security Lead' }
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="author" content="Yung-wen Jan" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph (LinkedIn / Facebook / Slack 分享預覽卡) -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={image} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Yung-wen Jan — Portfolio" />
+    <meta property="profile:first_name" content="Yung-wen" />
+    <meta property="profile:last_name" content="Jan" />
+
+    <!-- Twitter / X card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
+
+    <!-- 結構化資料:讓 Google 認得這是一個人物檔案 -->
+    <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+
     <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}/favicon.svg`} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

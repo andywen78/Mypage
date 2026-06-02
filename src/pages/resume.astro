@@ -1,0 +1,147 @@
+---
+// 列印優化的一頁式履歷。畫面上可點「Print / Save as PDF」→ 瀏覽器另存 PDF。
+// 內容為 site 的精煉版;改動經歷/技能時這裡也要同步。
+import '../styles/global.css';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const LINKEDIN = 'https://www.linkedin.com/in/andywen78';
+
+const roles = [
+  {
+    title: 'IT & Information Security Lead',
+    org: 'Taiwan Cooperative Venture Capital',
+    meta: 'Dec 2020 – Present · Taipei',
+    points: [
+      'Built the IT & InfoSec function from scratch for a ~30-person VC firm; own end-to-end on-prem infrastructure (servers, networking, firewalls, NAS, Active Directory).',
+      'Delivered four ISO certifications (14064 · 50001 · 14001 · 20400) — led IT workstreams, coordinated external auditors, documented controls, ran staff training.',
+      'Established the company-wide security program: policies, vulnerability scanning, backup/DR playbooks, MFA + VPN, AD role separation across all accounts.',
+      'Built internal platforms in-house — accounting, attendance, scheduled email automation, and management reporting.',
+    ],
+  },
+  {
+    title: 'Systems Engineer',
+    org: 'Sunfar Computer',
+    meta: 'Feb 2019 – Dec 2020 · Kaohsiung',
+    points: [
+      'Built an internal task-scheduling system that automated daily sales reporting — recovered ~1 hr/day per regional manager.',
+      'Integrated LinePay and E.SUN Pay APIs into the e-commerce checkout, end-to-end with bank technical teams to production.',
+      'Maintained and customized the B2B vendor ordering portal.',
+    ],
+  },
+  {
+    title: 'Software Engineer',
+    org: 'Yifei Information Systems',
+    meta: 'Jul 2017 – Oct 2018 · Kaohsiung',
+    points: [
+      'Designed and built a web-based e-invoicing platform (C# MVC / WebAPI / DDNS) — lifted an on-prem-only system into a mobile-accessible cloud deployment.',
+      'Maintained ERP modules (inventory, accounting, POS, e-invoicing) for ~50 SMB clients.',
+    ],
+  },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Résumé — Yung-wen Jan (詹詠文)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-ink/5 font-body text-ink antialiased">
+    <!-- 螢幕上的工具列(列印時隱藏) -->
+    <div class="no-print sticky top-0 z-10 flex items-center justify-between gap-3 border-b border-ink/10 bg-paper/90 px-5 py-3 backdrop-blur">
+      <a href={`${base}/`} class="font-mono text-xs text-ink-muted hover:text-tech">← back to portfolio</a>
+      <button
+        id="print-btn"
+        class="inline-flex items-center gap-2 rounded-md bg-ink px-4 py-2 font-mono text-xs font-medium text-paper transition-all hover:bg-tech"
+      >
+        Print / Save as PDF ↓
+      </button>
+    </div>
+
+    <main class="mx-auto my-6 max-w-[820px] bg-paper px-10 py-10 shadow-sm print:my-0 print:shadow-none">
+      <!-- Header -->
+      <header class="border-b-2 border-ink pb-4">
+        <h1 class="font-display text-3xl font-black leading-none tracking-tight">
+          Yung-wen Jan <span class="font-mono text-base font-normal text-ink-muted">詹詠文</span>
+        </h1>
+        <p class="mt-1.5 font-display text-base font-bold text-accent">IT &amp; Information Security Lead</p>
+        <p class="mt-2 font-mono text-[11px] text-ink-soft">
+          overfly0708@gmail.com · <a href={LINKEDIN} class="text-tech">linkedin.com/in/andywen78</a> ·
+          github.com/andywen78 · Taipei, Taiwan
+        </p>
+      </header>
+
+      <!-- Summary -->
+      <section class="mt-5">
+        <p class="text-[13px] leading-relaxed text-ink-soft">
+          IT &amp; Information Security Lead with <strong>8+ years</strong> across software engineering,
+          infrastructure, and ISO-aligned security governance. Comfortable moving between C# backend
+          development, Active Directory and firewall/VPN administration, and boardroom-level compliance
+          reporting. Native Mandarin, business Japanese (JLPT N2), professional English.
+        </p>
+      </section>
+
+      <!-- Experience -->
+      <section class="mt-6">
+        <h2 class="mb-3 border-b border-ink/15 pb-1 font-mono text-[11px] font-bold uppercase tracking-[0.2em] text-tech">Experience</h2>
+        {roles.map((r) => (
+          <div class="mb-4 break-inside-avoid">
+            <div class="flex items-baseline justify-between gap-3">
+              <h3 class="font-display text-[15px] font-black">{r.title} <span class="font-body text-[13px] font-semibold text-accent">· {r.org}</span></h3>
+              <span class="flex-none font-mono text-[10px] uppercase tracking-wider text-ink-muted">{r.meta}</span>
+            </div>
+            <ul class="mt-1.5 space-y-1">
+              {r.points.map((p) => (
+                <li class="flex gap-2 text-[12.5px] leading-snug text-ink-soft"><span class="mt-1.5 h-1 w-1 flex-none rounded-full bg-tech"></span><span>{p}</span></li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </section>
+
+      <!-- Two-column lower block -->
+      <section class="mt-4 grid grid-cols-2 gap-6 break-inside-avoid">
+        <div>
+          <h2 class="mb-2 border-b border-ink/15 pb-1 font-mono text-[11px] font-bold uppercase tracking-[0.2em] text-tech">Skills</h2>
+          <p class="text-[12px] leading-relaxed text-ink-soft"><strong class="text-ink">Languages:</strong> C# · Python · Java · JavaScript · C · VB.NET</p>
+          <p class="mt-1 text-[12px] leading-relaxed text-ink-soft"><strong class="text-ink">Web:</strong> ASP.NET MVC · WebAPI · HTML/CSS · jQuery</p>
+          <p class="mt-1 text-[12px] leading-relaxed text-ink-soft"><strong class="text-ink">Data:</strong> MS SQL Server · MySQL</p>
+          <p class="mt-1 text-[12px] leading-relaxed text-ink-soft"><strong class="text-ink">Infra:</strong> Active Directory · Windows Server · Firewall · TCP/IP · VPN · DNS/DDNS</p>
+          <p class="mt-1 text-[12px] leading-relaxed text-ink-soft"><strong class="text-ink">Security:</strong> Policy &amp; training · vuln scanning · backup/DR · MFA · privileged access</p>
+          <p class="mt-1 text-[12px] leading-relaxed text-ink-soft"><strong class="text-ink">Tooling:</strong> Git · GitHub Actions · PowerShell · AI-assisted dev (Claude, Copilot)</p>
+        </div>
+        <div>
+          <h2 class="mb-2 border-b border-ink/15 pb-1 font-mono text-[11px] font-bold uppercase tracking-[0.2em] text-tech">Certifications</h2>
+          <p class="text-[12px] leading-relaxed text-ink-soft"><strong class="text-ink">Earned:</strong> CCNA · JLPT N2 · Computer Software Applications Technician (MOL) · Occupational Safety &amp; Health Manager</p>
+          <p class="mt-1 text-[12px] leading-relaxed text-ink-soft"><strong class="text-ink">In progress:</strong> SSCP · ISO/IEC 27001 Lead Implementer</p>
+          <p class="mt-1 text-[12px] leading-relaxed text-ink-soft"><strong class="text-ink">Roadmap:</strong> CISSP · AWS Security Specialty · JLPT N1</p>
+
+          <h2 class="mb-2 mt-4 border-b border-ink/15 pb-1 font-mono text-[11px] font-bold uppercase tracking-[0.2em] text-tech">Education</h2>
+          <p class="text-[12px] leading-relaxed text-ink-soft"><strong class="text-ink">B.S. Software Engineering</strong><br/>National Kaohsiung Normal University · 2013–2017</p>
+
+          <h2 class="mb-2 mt-4 border-b border-ink/15 pb-1 font-mono text-[11px] font-bold uppercase tracking-[0.2em] text-tech">Languages</h2>
+          <p class="text-[12px] leading-relaxed text-ink-soft">Mandarin (native) · Japanese (JLPT N2) · English (professional)</p>
+        </div>
+      </section>
+    </main>
+
+    <style is:global>
+      @media print {
+        .no-print { display: none !important; }
+        body { background: #fff !important; }
+        @page { margin: 12mm; }
+      }
+    </style>
+    <script>
+      document.getElementById('print-btn')?.addEventListener('click', () => window.print());
+    </script>
+  </body>
+</html>

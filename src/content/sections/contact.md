@@ -10,6 +10,7 @@ description: Get in touch
 | | |
 |---|---|
 | **Email** | [overfly0708@gmail.com](mailto:overfly0708@gmail.com) |
+| **LinkedIn** | [linkedin.com/in/andywen78](https://www.linkedin.com/in/andywen78) |
 | **GitHub** | [@andywen78](https://github.com/andywen78) |
 | **Based in** | Taipei, Taiwan · UTC+8 |
 | **Response** | Typically within one business day |

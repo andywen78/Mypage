@@ -8,6 +8,9 @@ const sections = (await getCollection('sections')).sort(
 );
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
+// LinkedIn — 填入你的 LinkedIn 連結(同 Layout.astro / contact.md)
+const LINKEDIN = 'https://www.linkedin.com/in/andywen78';
+
 const stats = [
   { label: 'years experience', value: '8+', hint: 'software · infra · security' },
   { label: 'certifications', value: '6', hint: '4 earned · 2 in progress' },
@@ -46,10 +49,21 @@ const stats = [
         Taipei-based venture capital firm.
       </p>
 
+      <p class="mt-5 max-w-2xl border-l-2 border-tech/40 pl-4 font-mono text-sm leading-relaxed text-ink-muted lg:text-base">
+        Someone who can <span class="text-ink">write the code</span>, <span class="text-ink">run the infrastructure</span>, <em class="text-ink not-italic">and</em> <span class="text-ink">sit through a compliance audit</span> without flinching.
+      </p>
+
       <div class="mt-10 flex flex-wrap gap-3">
         <a
-          href={`${base}/summary`}
+          href={`${base}/resume`}
           class="group inline-flex items-center gap-2 rounded-md bg-ink px-5 py-3 font-mono text-sm font-medium text-paper transition-all hover:bg-tech"
+        >
+          Download Résumé
+          <span class="transition-transform group-hover:translate-y-0.5">↓</span>
+        </a>
+        <a
+          href={`${base}/summary`}
+          class="inline-flex items-center gap-2 rounded-md border border-ink/20 bg-paper px-5 py-3 font-mono text-sm font-medium text-ink transition-all hover:border-tech hover:text-tech"
         >
           View Summary
           <span class="transition-transform group-hover:translate-x-1">→</span>
@@ -59,6 +73,14 @@ const stats = [
           class="inline-flex items-center gap-2 rounded-md border border-ink/20 bg-paper px-5 py-3 font-mono text-sm font-medium text-ink transition-all hover:border-tech hover:text-tech"
         >
           <span>email ↗</span>
+        </a>
+        <a
+          href={LINKEDIN}
+          target="_blank"
+          rel="noreferrer"
+          class="inline-flex items-center gap-2 rounded-md border border-ink/20 bg-paper px-5 py-3 font-mono text-sm font-medium text-ink transition-all hover:border-tech hover:text-tech"
+        >
+          <span>linkedin ↗</span>
         </a>
         <a
           href="https://github.com/andywen78"

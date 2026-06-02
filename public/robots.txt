@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://andywen78.github.io/Mypage/sitemap.xml
