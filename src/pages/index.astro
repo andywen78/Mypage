@@ -11,6 +11,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 // LinkedIn — 填入你的 LinkedIn 連結(同 Layout.astro / contact.md)
 const LINKEDIN = 'https://www.linkedin.com/in/andywen78';
 
+const today = new Date().toLocaleDateString('en-CA'); // YYYY-MM-DD
+
 const stats = [
   { label: 'years experience', value: '8+', hint: 'software · infra · security' },
   { label: 'certifications', value: '6', hint: '4 earned · 2 in progress' },
@@ -30,7 +32,7 @@ const stats = [
         <span class="dot-live animate-pulse"></span>
         <span>portfolio</span>
         <span class="text-ink-muted">//</span>
-        <span class="text-ink-muted">updated {new Date().toISOString().split('T')[0]}</span>
+        <span class="opacity-60">updated {today}</span>
       </div>
 
       <h1 class="font-display text-5xl font-black leading-[0.95] tracking-tight text-ink lg:text-7xl">
