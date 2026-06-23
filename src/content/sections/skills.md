@@ -48,7 +48,7 @@ description: Technical stack, security competencies, and languages
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.simpleicons.org/cisco" alt="" class="h-5 w-5" loading="lazy" /><span>TCP/IP · VPN</span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><span class="flex h-5 w-5 flex-none items-center justify-center rounded bg-[#0f3d3e] text-[10px] font-black text-white">FW</span><span>Firewall</span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.simpleicons.org/openvpn" alt="" class="h-5 w-5" loading="lazy" /><span>DNS / DDNS</span></div>
-  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.simpleicons.org/amazonaws/FF9900" alt="" class="h-5 w-5" loading="lazy" /><span>AWS <span class="text-[10px] text-ink-muted">(training)</span></span></div>
+  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><span class="flex h-5 w-5 flex-none items-center justify-center rounded bg-[#FF9900] text-[8px] font-black text-white">AWS</span><span>AWS <span class="text-[10px] text-ink-muted">(training)</span></span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original.svg" alt="" class="h-5 w-5" loading="lazy" /><span>Tomcat</span></div>
 </div>
 
