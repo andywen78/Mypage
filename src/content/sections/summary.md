@@ -17,7 +17,7 @@ Comfortable moving between C# backend development, Active Directory administrati
 
 | Domain | What I do |
 |---|---|
-| **Infrastructure** | Servers, networking, firewalls, NAS, Active Directory, VPN |
+| **Infrastructure** | Servers, networking, firewalls, NAS, Active Directory, VPN, VMware / Hyper-V, Linux |
 | **Internal software** | C# MVC / WebAPI internal platforms, scheduling, reporting |
 | **Information security** | ISO 27001 controls, vulnerability scanning, DR, staff training |
 | **Compliance** | ISO 14064 · 50001 · 14001 · 20400 delivery support |

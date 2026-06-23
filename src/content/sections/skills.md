@@ -41,11 +41,15 @@ description: Technical stack, security competencies, and languages
 
 <div class="not-prose my-6 grid grid-cols-2 gap-2.5 sm:grid-cols-3 md:grid-cols-4">
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><span class="flex h-5 w-5 flex-none items-center justify-center rounded bg-[#0078D4] text-[9px] font-black text-white">AD</span><span>Active Directory</span></div>
-  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original.svg" alt="" class="h-5 w-5" loading="lazy" /><span>Tomcat</span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" alt="" class="h-5 w-5" loading="lazy" /><span>Windows Server</span></div>
+  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="" class="h-5 w-5" loading="lazy" /><span>Linux</span></div>
+  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.simpleicons.org/vmware/607078" alt="" class="h-5 w-5" loading="lazy" /><span>VMware</span></div>
+  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><span class="flex h-5 w-5 flex-none items-center justify-center rounded bg-[#0078D4] text-[8px] font-black text-white">HV</span><span>Hyper-V</span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.simpleicons.org/cisco" alt="" class="h-5 w-5" loading="lazy" /><span>TCP/IP · VPN</span></div>
-  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><span class="flex h-5 w-5 flex-none items-center justify-center rounded bg-[#0f3d3e] text-[11px] leading-none text-white">🛡</span><span>Firewall</span></div>
+  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><span class="flex h-5 w-5 flex-none items-center justify-center rounded bg-[#0f3d3e] text-[10px] font-black text-white">FW</span><span>Firewall</span></div>
   <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.simpleicons.org/openvpn" alt="" class="h-5 w-5" loading="lazy" /><span>DNS / DDNS</span></div>
+  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.simpleicons.org/amazonaws/FF9900" alt="" class="h-5 w-5" loading="lazy" /><span>AWS <span class="text-[10px] text-ink-muted">(training)</span></span></div>
+  <div class="flex items-center gap-2.5 rounded-md border border-ink/10 bg-paper px-3 py-2 font-mono text-sm text-ink-soft"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original.svg" alt="" class="h-5 w-5" loading="lazy" /><span>Tomcat</span></div>
 </div>
 
 ## Information Security
@@ -53,7 +57,7 @@ description: Technical stack, security competencies, and languages
 | Area | Capability |
 |---|---|
 | **Governance** | Security policy authoring, staff training programs |
-| **Vulnerability mgmt** | Vulnerability scanning, remediation, reporting |
+| **Vulnerability mgmt** | Vulnerability scanning (Nessus), remediation, reporting |
 | **Resilience** | Backup strategy, disaster recovery playbooks |
 | **Access control** | Privileged identity, MFA, VPN policy |
 | **Compliance** | ISO 14064 · 50001 · 14001 · 20400 delivery experience |
